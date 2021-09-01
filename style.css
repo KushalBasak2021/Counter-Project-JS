@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(
+    to left,
+    rgb(66, 25, 179),
+    rgb(204, 17, 204)
+  );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  height: 80vh;
+  width: 90vw;
+  border: 2px solid black;
+  margin-top: 6.5rem;
+  box-shadow: 5px 5px black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter-main {
+  height: 55vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter-main h1 {
+  padding-top: 5rem;
+  font-size: 5rem;
+}
+
+.counter-main .counter {
+  font-size: 15rem;
+  padding-top: 4rem;
+}
+
+.counter-button {
+  height: 10vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 1.2rem 2rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+}
+
+.counter-button .lower-count button {
+  background-color: red;
+  color: white;
+}
+
+.counter-button .lower-count button:hover {
+  background-color: rgb(61, 11, 11);
+  color: white;
+}
+
+.counter-button .higher-count button {
+  background-color: green;
+  color: white;
+}
+
+.counter-button .higher-count button:hover {
+  background-color: rgb(1, 27, 11);
+  color: white;
+}
+
+.restart-button {
+  margin-top: 2.5rem;
+}
+
+.restart-button button {
+  background-color: rgb(0, 13, 128);
+  color: white;
+}
+
+.restart-button button:hover {
+  background-color: rgb(2, 5, 27);
+  color: white;
+}
